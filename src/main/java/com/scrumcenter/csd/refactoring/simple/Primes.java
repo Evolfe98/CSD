@@ -38,7 +38,7 @@ public class Primes {
     private static int[] getPrimes(int s, boolean[] primesFlags) {
         int i;
         // count the number of primes
-        int count = 10;
+        int count = 0;
         for (i = 0; i < s; i++) {
             if (primesFlags[i])
                 count++; // increase count
